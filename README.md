@@ -219,8 +219,10 @@ ________________________________________
 原理图：
 
 实物图：
+![image](https://github.com/user-attachments/assets/e432c2ba-b264-4480-bcb4-4ab3d3b6070a)
 
 串口输出效果：
+![image](https://github.com/user-attachments/assets/280df727-8a11-433d-9d23-8a7cfdfc508c)
 
 代码片段：
 /*
@@ -265,6 +267,7 @@ vTaskDelay(50 / portTICK_PERIOD_MS);
 2. 中位值滤波：取采样序列中间值
 3. 算术均值滤波：直接计算平均值
 实验结果图：
+![image](https://github.com/user-attachments/assets/f7fc1933-5b91-4c52-89bf-44c9da645340)
 
 
 - 蓝色：原始数据
@@ -299,6 +302,7 @@ return filter_sum / (FILTER_N - 2);
 }
 3.3 上位机监控界面开发
 基于QT 5.15.2设计上位机界面，功能分区如下：
+![image](https://github.com/user-attachments/assets/f703b8c1-bb7e-4775-be92-99c6d98eecb7)
 
 光照区：光照大小会改变太阳颜色深浅以及射线条数
 距离区：距离会改变进度条，颜色也会渐变
